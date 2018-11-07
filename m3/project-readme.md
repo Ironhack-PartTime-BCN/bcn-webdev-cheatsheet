@@ -39,22 +39,23 @@ Geo Location:
 
 ## Pages
 
-- Home Page (public)
-- Sign in Page (anon only)
-- Log in Page (anon only)
-- Restaurants List Page (public only)
-- Restaurant Create (user only)
-- Restaurant Detail Page (public only)
-- My Profile Page (user only)
-- 404 Page (public)
+- Home Page 
+- Sign in Page 
+- Log in Page 
+- Restaurants List Page 
+- Restaurant Create 
+- Restaurant Detail Page 
+- My Profile Page 
+- 404 Page 
 
 ## Components
 
 - Restaurant Card component
-  - Input: restaurant: any
-  - Output: favorite(restaurantId: string, on: boolean)
+  - Props:
+  - State:
 - Search component
-  - Output: change(terms: string)
+  - Props:
+  - State:
 
 ## IO
 
